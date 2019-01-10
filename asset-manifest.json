@@ -1,13 +1,13 @@
 {
-  "main.css": "tangmichael.github.io/torontowastelookup/static/css/main.b44bb989.chunk.css",
-  "main.js": "tangmichael.github.io/torontowastelookup/static/js/main.ee686d3a.chunk.js",
-  "main.js.map": "tangmichael.github.io/torontowastelookup/static/js/main.ee686d3a.chunk.js.map",
-  "static/js/1.e7dbeaa2.chunk.js": "tangmichael.github.io/torontowastelookup/static/js/1.e7dbeaa2.chunk.js",
-  "static/js/1.e7dbeaa2.chunk.js.map": "tangmichael.github.io/torontowastelookup/static/js/1.e7dbeaa2.chunk.js.map",
-  "runtime~main.js": "tangmichael.github.io/torontowastelookup/static/js/runtime~main.0f42c3cf.js",
-  "runtime~main.js.map": "tangmichael.github.io/torontowastelookup/static/js/runtime~main.0f42c3cf.js.map",
-  "static/css/main.b44bb989.chunk.css.map": "tangmichael.github.io/torontowastelookup/static/css/main.b44bb989.chunk.css.map",
-  "index.html": "tangmichael.github.io/torontowastelookup/index.html",
-  "precache-manifest.76000888ca37b792a62578e53fe4c29f.js": "tangmichael.github.io/torontowastelookup/precache-manifest.76000888ca37b792a62578e53fe4c29f.js",
-  "service-worker.js": "tangmichael.github.io/torontowastelookup/service-worker.js"
+  "main.css": "/torontowastelookup/static/css/main.b44bb989.chunk.css",
+  "main.js": "/torontowastelookup/static/js/main.5c9f5f0d.chunk.js",
+  "main.js.map": "/torontowastelookup/static/js/main.5c9f5f0d.chunk.js.map",
+  "static/js/1.e7dbeaa2.chunk.js": "/torontowastelookup/static/js/1.e7dbeaa2.chunk.js",
+  "static/js/1.e7dbeaa2.chunk.js.map": "/torontowastelookup/static/js/1.e7dbeaa2.chunk.js.map",
+  "runtime~main.js": "/torontowastelookup/static/js/runtime~main.2dc1626c.js",
+  "runtime~main.js.map": "/torontowastelookup/static/js/runtime~main.2dc1626c.js.map",
+  "static/css/main.b44bb989.chunk.css.map": "/torontowastelookup/static/css/main.b44bb989.chunk.css.map",
+  "index.html": "/torontowastelookup/index.html",
+  "precache-manifest.043e9f704a1bc6398d1a4ff5beca2e94.js": "/torontowastelookup/precache-manifest.043e9f704a1bc6398d1a4ff5beca2e94.js",
+  "service-worker.js": "/torontowastelookup/service-worker.js"
 }

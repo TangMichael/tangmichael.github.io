@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "tangmichael.github.io/torontowastelookup/precache-manifest.76000888ca37b792a62578e53fe4c29f.js"
+  "/torontowastelookup/precache-manifest.043e9f704a1bc6398d1a4ff5beca2e94.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("tangmichael.github.io/torontowastelookup/index.html", {
+workbox.routing.registerNavigationRoute("/torontowastelookup/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });

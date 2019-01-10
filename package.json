@@ -2,9 +2,11 @@
   "name": "toronto-waste-lookup",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http:tangmichael.github.io/torontowastelookup",
   "dependencies": {
     "@material-ui/core": "^3.8.2",
     "@material-ui/icons": "^3.0.2",
+    "gh-pages": "^2.0.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-redux": "^6.0.0",
@@ -12,6 +14,8 @@
     "redux": "^4.0.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

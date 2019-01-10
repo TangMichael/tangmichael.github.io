@@ -11,8 +11,12 @@ class SearchResults extends Component {
   }
   render() {
     // on search, render new searchedItems and maps them into the list
-    const listItems = this.props.searchedItems.map((element, index) => (
-      <div style={{ display: "flex", paddingBottom: 40 }}>
+    const listItems = this.props.searchedItems.map((element, index) => {
+      var elem = document.createElement("textarea");
+      elem.innerHTML = element.body;
+      var decoded = elem.value;
+      
+     return <div style={{ display: "flex"}}>
         <Star
           className={
             this.props.favorites.some(favs => favs.title === element.title)
@@ -29,9 +33,9 @@ class SearchResults extends Component {
           }}
         />
         <div className="title">{element.title}</div>
-        <div className="description">{element.body}</div>
-      </div>
-    ));
+        <div className="description" dangerouslySetInnerHTML={{ __html: decoded }}></div>
+      </div>;
+    });
 
     return (
       <div>

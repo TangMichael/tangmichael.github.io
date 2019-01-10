@@ -17,3 +17,15 @@
 .searchfield {
     flex: 13;
 }
+
+.MuiOutlinedInput-root-5 .MuiOutlinedInput-notchedOutline-12{
+    border-color: black;
+}
+
+.MuiButton-contained-48{
+    background-color: green !important;
+}
+
+.white{
+    fill: white !important;
+}

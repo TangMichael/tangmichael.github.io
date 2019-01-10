@@ -1,3 +1,5 @@
 .header {
     font-size: x-large;
+    background-image: linear-gradient(to right,#19387d, green);
+    color:white;
 }

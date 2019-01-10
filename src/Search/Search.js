@@ -3,6 +3,7 @@ import "./Search.css";
 import Button from "@material-ui/core/Button";
 import TextField from "@material-ui/core/TextField";
 import SearchResults from "./SearchResults";
+import SearchIcon from '@material-ui/icons/Search';
 export default class Search extends Component {
   constructor() {
     super();
@@ -48,8 +49,8 @@ export default class Search extends Component {
             variant="outlined"
           />
           <div className="button">
-            <Button onClick={this.search} variant="contained" color="primary">
-              Search
+            <Button onClick={this.search} variant="contained">
+              <SearchIcon className="white"></SearchIcon>
             </Button>
           </div>
         </div>

@@ -1,0 +1,19 @@
+.searchContainer {
+    display:flex;
+    flex-direction: column;
+}
+.searchFieldButton{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.button{
+    margin-left:5px;
+    flex:1;
+}
+
+.searchfield {
+    flex: 13;
+}

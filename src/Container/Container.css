@@ -8,7 +8,6 @@
 .header{
     flex:1;
     height: 30%;
-    background-color: blue;
     display:flex;
     align-items: center;
     justify-content: center

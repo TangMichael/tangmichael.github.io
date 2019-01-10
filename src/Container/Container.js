@@ -11,11 +11,13 @@ export default class Container extends Component {
         <div className="header">
         <Header></Header>
         </div>
+        <div className="features">
         <div className="search">
         <Search></Search>
         </div>
         <div className="favorites">
         <Favorites></Favorites>
+        </div>
         </div>
       </div>
     )

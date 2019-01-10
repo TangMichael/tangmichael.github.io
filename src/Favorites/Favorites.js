@@ -1,22 +1,22 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import { Button } from "@material-ui/core";
 import {deleteFavorites} from './../actions/index'
+import Star from "@material-ui/icons/Star";
+import './../Search/SearchResults.css';
+
 class Favorites extends Component {
   render() {
     const listItems = this.props.state.map((element, index) => (
-      <li key={index}>
-        <div className="list-container">
-          <div className="name">{element.title}</div>
-          <div className="language">{element.body}</div>
-          <Button onClick={() => this.props.deleteFavorites(element)}>Delete</Button>
+      <div style = {{display:'flex', paddingBottom: 40}}>
+      <Star className="green" onClick={() => this.props.deleteFavorites(element)}/>
+          <div className="title">{element.title}</div>
+          <div className="description">{element.body}</div>
         </div>
-      </li>
     ));
 
     return (
       <div>
-        Favorites
+        <big style={{color: 'green', fontSize: 35, paddingLeft: 10}}>Favourites</big>
         <ul>{listItems}</ul>
       </div>
     );

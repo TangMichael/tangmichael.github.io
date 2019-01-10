@@ -1,0 +1,15 @@
+.gray {
+    fill: gray !important;
+}
+
+.green {
+    fill: green !important;
+}
+
+.title{
+    width:40%;
+}
+
+.description {
+    width: 50%;
+} 

@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import { addFavorites } from "./../actions/index";
 import { connect } from "react-redux";
-import { Button } from "@material-ui/core";
+import Star from "@material-ui/icons/Star";
 
+import "./SearchResults.css";
 class SearchResults extends Component {
   constructor(props) {
     super(props);
@@ -11,21 +12,25 @@ class SearchResults extends Component {
   render() {
     // on search, render new searchedItems and maps them into the list
     const listItems = this.props.searchedItems.map((element, index) => (
-      <li key={index}>
-        <div className="list-container">
-          <div className="name">{element.title}</div>
-          <div className="language">{element.body}</div>
-
-          <Button
-            disabled={this.props.favorites.some(favs => favs.title === element.title)}
-            onClick={() => {
+      <div style={{ display: "flex", paddingBottom: 40 }}>
+        <Star
+          className={
+            this.props.favorites.some(favs => favs.title === element.title)
+              ? "green"
+              : "gray"
+          }
+          onClick={() => {
+            if (
+              this.props.favorites.some(favs => favs.title === element.title)
+            ) {
+            } else {
               this.props.addFavorites(element);
-            }}
-          >
-            Add
-          </Button>
-        </div>
-      </li>
+            }
+          }}
+        />
+        <div className="title">{element.title}</div>
+        <div className="description">{element.body}</div>
+      </div>
     ));
 
     return (

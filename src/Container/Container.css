@@ -2,6 +2,7 @@
     display:flex;
     flex-direction: column;
     height:100vh;
+    overflow: auto;
 }
 
 .header{
@@ -11,7 +12,12 @@
     display:flex;
     align-items: center;
     justify-content: center
+}
 
+.features{
+    flex: 6;
+    display: flex;
+    flex-direction: column;
 }
 
 .search{
@@ -20,4 +26,5 @@
 
 .favorites {
     flex:4;
+    background: rgba(51, 170, 51, 0.04);
 }

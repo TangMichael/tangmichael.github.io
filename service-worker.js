@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/torontowastelookup/precache-manifest.113626934f7b476b591f8d2bdf37b128.js"
+  "/torontowastelookup/precache-manifest.56648f09066aa6567606c108173b49f8.js"
 );
 
 workbox.clientsClaim();

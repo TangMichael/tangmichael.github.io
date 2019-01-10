@@ -34,6 +34,11 @@ export default class Search extends Component {
     }
   }
 
+  keyPress = (e) =>{
+    if(e.keyCode === 13){
+      this.search();
+    }
+  }
 
   render() {
     return (
@@ -47,6 +52,7 @@ export default class Search extends Component {
             onChange={this.onChange}
             margin="normal"
             variant="outlined"
+            onKeyDown={this.keyPress}
           />
           <div className="button">
             <Button onClick={this.search} variant="contained">

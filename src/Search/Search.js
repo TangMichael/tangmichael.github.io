@@ -20,7 +20,7 @@ export default class Search extends Component {
       .then(res => res.json())
       .then(json => {
         const x = json.filter(element => {
-          return element.keywords.includes(this.searchValue.value);
+          return element.keywords.includes(this.searchValue.value.toLowerCase());
         });
         this.setState({searchedItems: x})
         console.log(this.state.searchedItems);
